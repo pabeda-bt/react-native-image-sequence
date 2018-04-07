@@ -1,41 +1,21 @@
 {
-  "_args": [
-    [
-      "react-native-image-sequence@0.5.0",
-      "/Users/kervan/Desktop/projects/catchman-mobile"
-    ]
-  ],
-  "_from": "react-native-image-sequence@0.5.0",
-  "_id": "react-native-image-sequence@0.5.0",
-  "_inBundle": false,
-  "_integrity": "sha1-3rm7HbgzsSx1DawMUSo0qAG1ppU=",
-  "_location": "/react-native-image-sequence",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "react-native-image-sequence@0.5.0",
-    "name": "react-native-image-sequence",
-    "escapedName": "react-native-image-sequence",
-    "rawSpec": "0.5.0",
-    "saveSpec": null,
-    "fetchSpec": "0.5.0"
+  "name": "react-native-image-sequence",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madsleejensen/react-native-image-sequence.git"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-image-sequence/-/react-native-image-sequence-0.5.0.tgz",
-  "_spec": "0.5.0",
-  "_where": "/Users/kervan/Desktop/projects/catchman-mobile",
+  "version": "0.5.0",
+  "description": "A <ImageSequence> component for react-native",
   "author": {
     "name": "Mads Lee Jensen",
     "email": "madsleejensen@gmail.com",
     "url": "http://mads-lee.dk"
   },
-  "bugs": {
-    "url": "https://github.com/madsleejensen/react-native-image-sequence/issues"
+  "peerDependencies": {
+    "react-native": ">=0.47.0",
+    "prop-types": ">=15.5.0"
   },
-  "description": "A <ImageSequence> component for react-native",
+  "license": "MIT",
   "homepage": "https://github.com/madsleejensen/react-native-image-sequence",
   "keywords": [
     "react-native",
@@ -46,16 +26,5 @@
     "frame-animation",
     "animation",
     "animationImages"
-  ],
-  "license": "MIT",
-  "name": "react-native-image-sequence",
-  "peerDependencies": {
-    "react-native": ">=0.47.0",
-    "prop-types": ">=15.5.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/madsleejensen/react-native-image-sequence.git"
-  },
-  "version": "0.5.0"
+  ]
 }
